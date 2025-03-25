@@ -37,9 +37,10 @@ A modern parking management solution built with React and Node.js that helps tra
 
 ## System Architecture
 
-### Database Schema
+### Database Schema - ER Diagram
 
-![ER Diagram](https://github.com/user-attachments/assets/db4f947b-650c-49ef-8ae6-8de205a9915c)
+![image](https://github.com/user-attachments/assets/113cb598-1c42-42d2-9087-7d5cbcab2911)
+
 
 ### Tech Stack
 
