@@ -9,47 +9,74 @@ A modern parking management solution built with React and Node.js that helps tra
   - Track available and occupied spots
   - Visual representation of parking zones
   - Dynamic updates of parking status
+  - Real-time occupancy monitoring
+  - Automated space assignment
 
 - **Vehicle Management**
 
   - Record vehicle entry and exit
   - Track parking duration
   - Store vehicle information (plate number, type)
+  - Vehicle type classification
+  - Historical parking data
 
 - **Payment Processing**
 
   - Automatic fee calculation based on duration
   - Different rates for various vehicle types
   - Payment status tracking
+  - Multiple payment methods support
+  - Digital receipt generation
 
 - **Reporting and Analytics**
   - View parking history
   - Track revenue
   - Monitor space utilization
+  - Custom report generation
+  - Data visualization dashboard
 
-## ER Diagram
+## System Architecture
 
-![image](https://github.com/user-attachments/assets/db4f947b-650c-49ef-8ae6-8de205a9915c)
+### Database Schema
 
-## Tech Stack
+![ER Diagram](https://github.com/user-attachments/assets/db4f947b-650c-49ef-8ae6-8de205a9915c)
 
-- Frontend: React
-- Backend: Node.js with Express
-- Database: SQLite
-- Styling: CSS with modern design principles
+### Tech Stack
 
-## Prerequisites
+- **Frontend**
+
+  - React 18
+  - Vite
+  - TailwindCSS
+  - React Query
+
+- **Backend**
+
+  - Node.js (v14+)
+  - Express.js
+  - SQLite3
+  - JWT Authentication
+
+- **Development Tools**
+  - ESLint
+  - Prettier
+  - Jest
+  - Supertest
+
+## Getting Started
+
+### Prerequisites
 
 - Node.js (v14 or higher)
 - npm (v6 or higher)
 - Git
 
-## Installation
+### Installation
 
 1. Clone the repository
 
 ```bash
-git clone https://github.com/Wizhill05/smart_parking.git
+git clone https://github.com/Wizhill05/toll_plaza.git
 cd smart_parking
 ```
 
