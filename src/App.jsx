@@ -336,7 +336,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>Toll Plaza Management System</h1>
+      <h1>Route Pay</h1>
 
       <div className="tabs">
         <button
