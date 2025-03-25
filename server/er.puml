@@ -1,0 +1,36 @@
+@startuml
+entity Toll_Booth {
+  *BoothID : int <<PK>>
+  --
+  Name : string
+  Location : string
+}
+
+entity Vehicle {
+  *VehicleID : int <<PK>>
+  --
+  LicensePlate : string
+  VehicleType : string
+}
+
+entity Checkin {
+  *CheckinID : int <<PK>>
+  --
+  CheckinTime : datetime
+  VehicleID : int <<FK>>
+  BoothID : int <<FK>>
+}
+
+entity Violation <<weak>> {
+  *ViolationNo : int <<partial>>
+  --
+  ViolationDate : datetime
+  Description : string
+  VehicleID : int <<FK>>
+}
+
+' Relationships
+Toll_Booth ||--o{ Checkin : "logs"
+Vehicle ||--o{ Checkin : "generates"
+Vehicle ||--o{ Violation : "commits"
+@enduml
